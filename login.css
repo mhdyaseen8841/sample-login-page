@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
 body{
     background-image: url("working-code.jpg");
     background-repeat: no-repeat;
@@ -8,8 +10,9 @@ body{
     padding: 0;
 }
 .login-box{
+  
     width: 450px;
-    height: 550px;
+    height: 600px;
     background: rgba(255, 255, 255, 0.7);
     
     margin-top: 100px;
@@ -45,6 +48,8 @@ input[type=text], input[type=email], input[type=password] {
   label{
     padding-left: 40px;
     padding-bottom: 20px;
+    display: flex;
+    padding-top: 10px;
 
   }
 
@@ -63,9 +68,37 @@ padding-top: 15px;
     background-color: #1a5ee9;
     border-radius: 5px;
     margin-top: 20px;
-    color: wheat;
+    color: white;
     padding: 12px 20px;
     /* border-color: white; */
     border: none;
     font-size: larger;
   }
+
+  .btnn{
+    width: 80%;
+    padding-top: 20px;
+    margin-left: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: #1a5ee9;
+    padding: 12px 20px;
+    /* border-color: white; */
+    border: solid;
+    box-shadow: 0 0 15px rgba(73, 86, 255, 0.2);
+    font-size: larger;
+  }
+
+
+  .link{
+    text-decoration: none;
+    padding-left: 150px;
+    padding-top: 30px;
+
+  }
+  .heading{
+    font-family: 'Poppins', sans-serif;
+  }
+
+  
